@@ -1,0 +1,100 @@
+.reviews {
+  // background-color: #eee;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // flex-direction: column;
+}
+
+.reviews-slider {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  padding: 2rem;
+  margin: 0 auto;
+  // max-width: 1200px;
+}
+
+.reviews--left {
+  padding: 2rem;
+}
+
+.rev--title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.reviews--left{
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews--left__item1,.reviews--left__item2,.reviews--left__item3{
+  display: flex;
+  margin: 6px 0;
+}
+
+.reviews--left__item1::before{
+  content: url(../img/icons/potential-1.svg);
+}
+
+.reviews--left__item2::before{
+  content: url(../img/icons/potential-2.svg);
+}
+
+.reviews--left__item3::before{
+  content: url(../img/icons/potential-3.svg);
+}
+
+.rev--text{
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.rev--subtitle {
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #72787d;
+  display: flex;
+}
+
+.card-body {
+  padding: 2rem 2.5rem;
+}
+
+.card--bottom {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.card--img {
+  margin-right: 1rem;
+}
+
+.card-text::before {
+  content: "\201C";
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.card-text::after {
+  content: "\201D";
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.card-author__name{
+  font-size: 14px;
+}
+
+.rev-item {
+  margin: 1rem 2rem;
+  box-shadow: 0 0 20px rgb(0 10% 0 / 10%);
+  cursor: pointer;
+}
+

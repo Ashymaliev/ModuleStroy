@@ -1,0 +1,133 @@
+
+  
+  $contBgClr: linear-gradient(to left bottom, #F2E3C6 0%, #A7A1A5 100%);
+  $appShadowClr: rgba(#000, .3);
+  
+
+  .header{
+    box-shadow: 10px 0 60px $appShadowClr;
+    z-index: 1000;
+    background-color: #fff;
+
+    .header-nav__item:hover{
+        border-bottom: 1px solid #000;
+        width: 100;
+    }
+    .logo{
+        display: flex;
+        border-bottom: 1px solid #000;
+        align-items: center;
+        color: #0099CC;
+        cursor: pointer;
+
+        .logo-icon{
+            color: #0099CC;
+            padding: 0 5px 3px 0;
+      
+        }
+    }
+
+    .header-nav__num{
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+    .header__right{
+        display: flex;
+    }
+
+    .header-num{
+        display: block;
+    } 
+  }
+
+
+  h1.hero {
+      &__title{
+        margin-bottom: 10px !important;
+      }
+  }
+
+
+ // /////////////////////////////////// //
+  .cont {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+      background-image: $contBgClr;
+      overflow: hidden;
+  }
+
+  .inner {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem;
+      max-width: 1200px;
+      margin: 0 auto;
+
+      .logo{
+          font-weight: 700;
+      }
+
+      a {
+        padding: 0 1rem 0 3px;
+        color: #0A101D;
+        font-weight: 500;
+        font-size: 16px;
+      }
+  }
+
+// link hover //
+
+:root {
+    --text: #2B3044;
+    --line: #BBC1E1;
+    --line-active: #275EFE;
+}
+
+.header__right {
+    font-size: 18px;
+    margin: 0;
+    color: var(--text);
+    a.connect-link {
+        display: inline-block;
+        position: relative;
+        text-decoration: none;
+        color: inherit;
+        margin: 0 var(--spacing, 0px);
+        transition: margin .25s;
+        svg {
+            width: 250px;
+            height: 50px;
+            position: absolute;
+            left: 45%;
+            bottom: 0;
+            transform: translate(-50%, 7px) translateZ(0);
+            fill: none;
+            stroke: var(--stroke, var(--line));
+            stroke-linecap: round;
+            stroke-width: 2px;
+            stroke-dasharray: var(--offset, 69px) 278px;
+            stroke-dashoffset: 361px;
+            transition: stroke .25s ease var(--stroke-delay, 0s), stroke-dasharray .35s;
+        }
+        &:hover {
+            --spacing: 4px;
+            --stroke: var(--line-active);
+            --stroke-delay: .1s;
+            --offset: 180px;
+        }
+    }
+}
+
+
+* {
+    box-sizing: inherit;
+    &:before,
+    &:after {
+        box-sizing: inherit;
+    }
+}

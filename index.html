@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Modul Stroy</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
+
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="slick/slick.css" />
+    <link rel="stylesheet" href="slick/slick-theme.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/hystmodal.min.css">
+  </head>
+
+  <body class="">
+    <!-- add karla font -->
+
+    <header class="header">
+      <div class="inner">
+        <div class="logo">
+          <div class="logo-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-bank2"
+              viewBox="0 0 16 16">
+              <path
+                d="M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916l-7.5-5zM12.375 6v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1H.5z"
+              />
+            </svg>
+          </div>
+          <span>MODUL STROY</span>
+        </div>
+        <div class="burger"></div>
+        <nav class="header-nav">
+          <a class="header-nav__item active" href="#tab-flexbox">Каталог</a>
+          <a class="header-nav__item" href="#tab-other">О нас</a>
+          <a class="header-nav__item" href="#tab-angular">Отзывы</a>
+          <a class="header-nav__item" href="#tab-react">Наши товары</a>
+        </nav>
+        <div class="header__right">
+          <a
+            class="connect-link"
+            href="https://www.instagram.com/module_stroy.kz/">
+            Instagram
+            <svg viewBox="0 0 70 36">
+              <path d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
+          </svg>
+          </a>
+          <a href="https://api.whatsapp.com/send/?phone=77074747917&text=%D0%A1%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5+%D1%81+%D1%81%D0%B0%D0%B9%D1%82%D0%B0&app_absent=0" 
+          class="connect-link">+7 (705) 899-23-24
+         
+        </a>
+          <!-- <span class="header-nav__num">+7 (705) 899-23-24</span> -->
+        </div>
+      </div>
+    </header>
+
+    <section class="et-hero-tabs height-100">
+      <div class="container">
+        <h1 class="hero-title">Производство киосков и бытовок</h1>
+        <p class="hero-description">
+          Основные услуги и продукты компании Компания “Module Stroy” предлагает
+          организациям и частным лицам широкий комплекс строительство модульных
+          зданий любой сложности. Основным направлением является строительство с
+          металлоконструкций, а также с контейнеров!
+        </p>
+
+        <div class="hero-bottom">
+          <img src="./img/hero-2.png" alt="" />
+        </div>
+        <button type="button" data-hystmodal="#myModal" class="btn btn-dark btn-lg button m-top">
+          Узнать стоимость
+        </button>
+      </div>
+
+      <div class="et-hero-tabs-container">
+        <div class="hero--container">
+          <a class="et-hero-tab" href="#tab-es6">Наша цель</a>
+          <a class="et-hero-tab" href="#tab-flexbox">Каталог</a>
+          <a class="et-hero-tab" href="#tab-other">О нас</a>
+          <a class="et-hero-tab" href="#tab-react">Наши товары</a>
+          <a class="et-hero-tab" href="#tab-angular">Отзывы</a>
+        </div>
+        <span class="et-hero-tab-slider"></span>
+      </div>
+    </section>
+
+    <main>
+      <!-- et-main -->
+      <div class="et-main">
+        <section class="et-slide" id="tab-es6">
+          <div class="container">
+            <div class="row">
+              <div class="hero-left col-lg-6 col-md-6 col-sm-12">
+                <div class="hero-left__desc">
+                  <div class="hero-left__desc--title text-left">
+                    <h2>
+                      Мы заботимся о доставке на стройплощадку и о людях,
+                      которые на них рассчитывают
+                    </h2>
+                  </div>
+                  <div class="hero-left__desc--suptitle">
+                    <p>
+                      Мы знаем всё о гордости от сияющего нового здания. Нам
+                      также известно всё о разочаровании от попыток завершить
+                      проект в срок и в рамках бюджета.
+                    </p>
+                    <button type="button" data-hystmodal="#myModal"
+                      class="btn btn-dark btn-lg m-right button">
+                      Узнать стоимость
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="hero-right col-lg-6 col-md-6 col-sm-12">
+                <img src="./img/hero-3.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="et-slide" id="tab-flexbox">
+          <div class="catalog ">
+            <h2 class="catalog-title">Производство киосков и бытовок</h2>
+            <div class="row">
+              <div class="catalog--item col-lg-4 col-md-6 col-sm-6">
+                <div class="catalog--content">
+                  <div class="catalog__top">
+                    <img src="./img/catlog/с-4.jpg" alt="" />
+                  </div>
+                  <div class="catalog__bottom">
+                    <h2>Каталог</h2>
+                    <span>
+                      Торговые киоски, Павильоны, Ларьки на заказ
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="catalog--item col-lg-4 col-md-6 col-sm-6">
+                <div class="catalog--content">
+                  <div class="catalog__top">
+                    <img src="./img/catlog/с-3.jpg" alt="" />
+                  </div>
+                  <div class="catalog__bottom">
+                    <h2>Каталог</h2>
+                    <span>
+                      Торговые киоски, Павильоны, Ларьки на заказ
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="catalog--item col-lg-4 col-md-6 col-sm-6">
+                <div class="catalog--content">
+                  <div class="catalog__top">
+                    <img src="./img/catlog/c-1.jpg" alt="" />  
+                  </div>
+                  <div class="catalog__bottom">
+                    <h2>Каталог</h2>
+                    <span>
+                      Торговые киоски, Павильоны, Ларьки на заказ
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="catalog--item col-lg-4 col-md-6 col-sm-6">
+                <div class="catalog--content">
+                  <div class="catalog__top">
+                    <img src="./img/catlog/с-2.jpg" alt="" />
+                  </div>
+                  <div class="catalog__bottom">
+                    <h2>Каталог</h2>
+                    <span>
+                      Торговые киоски, Павильоны, Ларьки на заказ
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="catalog--item col-lg-4 col-md-6 col-sm-6">
+                <div class="catalog--content">
+                  <div class="catalog__top">
+                    <img src="./img/catlog/с-5.jpg" alt="" />
+                  </div>
+                  <div class="catalog__bottom">
+                    <h2>Каталог</h2>
+                    <span>
+                      Торговые киоски, Павильоны, Ларьки на заказ
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="catalog--item col-lg-4 col-md-6 col-sm-6">
+                <div class="catalog--content">
+                  <div class="catalog__top">
+                    <img src="./img/catlog/с-2.jpg" alt="" />
+                  </div>
+                  <div class="catalog__bottom">
+                    <h2>Каталог</h2>
+                    <span>
+                      Торговые киоски, Павильоны, Ларьки на заказ
+                    </span>
+                  </div>
+                </div>
+              </div>   
+            </div>
+          </div>
+        </section>
+
+        <section class="et-slide" id="tab-other">
+          <div class="description container">
+            <div class="row">
+              <div class="col-lg-12">
+                <h2>Что такое «Module Stroy»</h2>
+                         
+                <p>
+                  “Module Stroy” в совершенстве владеет всеми строительными
+                  технологиями – объекты недвижимости возводятся из материалов,
+                  предпочитаемых заказчиком. Преимуществами компании является
+                  оказание услуг по проектированию и сдаче объектов “под ключ”,
+                  собственная база для строительства определенных объектов.    
+                         
+                </p>
+                <p>
+                  Прочные партнерские отношения с поставщиками и производителями
+                  строительных материалов позволяют учитывать все пожелания
+                  заказчика, начиная со сбора исходных данных и заканчивая
+                  сдачей в срок готового объекта и обустроенного участка.
+                  Компания ведет активную строительную и подрядную деятельность
+                  в Алматы, Астаны и в других регионах Республики Казахстан.
+                </p>
+              </div>
+
+              <div class="about--content">
+                <div class="about--left col-lg-5">
+                  <img src="./img/about-2.svg" alt="" />
+                </div>
+                <div class="about--right col-lg-7">
+                  <h3 class="mb-20 about--title">Мы предлагаем</h3>
+                  <p>
+                    Строительная компания “Module Stroy” предлагает организациям
+                    и частным лицам широкий комплекс общестроительных и
+                    подрядных работ. Основным направлениям деятельности является
+                    строительство объектов недвижимости любой сложности, включая
+                    производственные, торговые и промышленные здания.
+                  </p>
+                </div>
+              </div>
+
+              <div class="about--content">
+                <div class="about--left col-lg-9">
+                  <h3 class="mb-20 text-left about--title">
+                    Виды выполняемых работ:
+                  </h3>
+                  <p>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check-circle"
+                      viewBox="0 0 16 16">
+                      <path
+                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                      />
+                      <path
+                        d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/></svg>    Монтаж сэндвич панелей на основании металлоконструкций
+                    (модульные здания, ангары и т.д.)
+                  </p>
+
+                  <p>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check-circle"
+                      viewBox="0 0 16 16">
+                      <path
+                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                      <path
+                        d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/></svg >
+                             Мобильные здание на базе контейнеров (вахтовые
+                    городки, офисы, бытовки и т.д. )</p>
+
+                  <p>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check-circle"
+                      viewBox="0 0 16 16">
+                      <path
+                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                      <path
+                        d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/></svg>
+                         Монтаж деревянных и легких ограждающих конструкций </p>
+
+                  <p>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check-circle"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                      />
+                      <path
+                        d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
+                      /></svg >     Изоляционные, кровельные и отделочные работы
+                  </p>
+
+                  <p>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check-circle"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                      />
+                      <path
+                        d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
+                      /></svg>     Устройство наружных инженерных сетей и коммуникаций
+                  </p>
+
+                  <p>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check-circle"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                      />
+                      <path
+                        d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
+                      /></svg>     Монтаж внутренних инженерных систем и оборудования
+                  </p>
+
+                  <p>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check-circle"
+                      viewBox="0 0 16 16">
+                      <path
+                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                      />
+                      <path
+                        d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
+                      /></svg>     Устройство и монтаж бетонных и железобетонных
+                    конструкций
+                  </p>
+                </div>
+                <div class="about--right col-lg-3">
+                  <img src="./img/about-1.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="about--bottom">
+              <p>
+                Заказчики могут доверить весь комплекс строительных работ
+                компании “ Module Stroy ”, полностью сосредоточившись на
+                успешном решении проблем своего бизнеса. Важным преимуществом
+                компании является возможность одновременного строительства
+                объектов в разных городах РК. Подробнее:
+                https://modulstroy.kz/about_us
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="et-slide" id="tab-react">
+          <div class="offer">
+            <h2>Что мы предлагаем</h2>
+            <div class="row">
+              <figure class="snip1543 col-lg-4 col-md-6">
+                <img src="./img/offer/1111.png" alt="sample108" />
+                <figcaption>
+                  <h3>Киоски</h3>
+                  <p>Торговые киоски, Павильоны, Ларьки на заказ</p>
+                </figcaption>
+                <a href="#"></a>
+              </figure>
+              <figure class="snip1543 col-lg-4 col-md-6">
+                <img src="./img/offer/222.png" alt="sample100" />
+                <figcaption>
+                  <h3>Модульные здания</h3>
+                  <p>Торговые киоски, Павильоны, Ларьки на заказ</p>
+                </figcaption>
+                <a href="#"></a>
+              </figure>
+              <figure class="snip1543 col-lg-4 col-md-6">
+                <img src="./img/offer/3333.png" alt="sample101" />
+                <figcaption>
+                  <h3>Строения из СИП-панелей</h3>
+                  <p>Торговые киоски, Павильоны, Ларьки на заказ </p>
+                </figcaption>
+                <a href="#"></a>
+              </figure>
+            </div>
+            <!-- <div class="row">
+              <div class="offer--item col-lg-4 col-md-6">
+                <img src="./img/offer/1111.png" alt="" />
+                <h3>Киоски</h3>
+              </div>
+              <div class="offer--item col-lg-4 col-md-6">
+                <img src="./img/offer/222.png" alt="" />
+                <h3>Модульные здания</h3>
+              </div>
+              <div class="offer--item col-lg-4 col-md-6">
+                <img src="./img/offer/3333.png" alt="" />
+                <h3>Строения из СИП-панелей</h3>
+              </div>
+            </div> -->
+          </div>
+        </section>
+
+        <section class="et-slide" id="tab-angular">
+          <div class="container">
+            <div class="reviews row">
+              <h2>Почему нужно выбрать нас?</h2>
+              <h3>У нас всегда есть возможности для улучшения.</h3>
+              <div class="reviews--left col-xl-5 col-lg-6 col-md-12">
+                <div class="reviews--left__item1 text-left">
+                  <div class="rev--text">
+                    <span class="rev--title">Большой потенциал</span>
+                    <p class="rev--subtitle">
+                      Входит в топ-25 самых многообещающих стартапов ConTech по
+                      версии Cemex Ventures, Moscow Consulting Group, BuiltWorld
+                      и PwC
+                    </p>
+                  </div>
+                </div>
+                <div class="reviews--left__item2 text-left">
+                  <div class="rev--text">
+                    <span class="rev--title">Выбор лидеров рынка</span>
+                    <p class="rev--subtitle">
+                      Рекомендуемый поставщик технологий для 3 из 10 ведущих
+                      генеральных подрядчиков в Европе
+                    </p>
+                  </div>
+                </div>
+                <div class="reviews--left__item3 text-left">
+                  <div class="rev--text">
+                    <span class="rev--title"
+                      >Устойчивое развитие и безопасность</span
+                    >
+                    <p class="rev--subtitle">
+                      Способствует снижению выбросов CO2 и повышает безопасность
+                      на месте
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="reviews-slider center col-xl-6 col-lg-6 col-md-12">
+                <div class="slider-item">
+                  <div class="card rev-item" style="">
+                    <div class="card-body text-left">
+                      <p class="card-text">
+                        Мы видим огромный потенциал в таких решениях, как
+                        ModulStroy, и хотим использовать их для улучшения наших
+                        строительных процессов.
+                      </p>
+                      <div class="card--bottom">
+                        <div class="card--img">
+                          <img src="./img/icons/review-1.jpg" alt="" />
+                        </div>
+                        <div class="card-author__name text-left">
+                          <span class="card-title">Волков Матвей <br /></span>
+                          <span class="card-subtitle mb-2 text-muted"
+                            >Генеральный директор Осоо Adriano Coffee</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider-item">
+                  <div class="card rev-item" style="">
+                    <div class="card-body text-left">
+                      <p class="card-text">
+                        Мы видим огромный потенциал в таких решениях, как
+                        ModulStroy, и хотим использовать их для улучшения наших
+                        строительных процессов.
+                      </p>
+                      <div class="card--bottom">
+                        <div class="card--img">
+                          <img src="./img/icons/review-1.jpg" alt="" />
+                        </div>
+                        <div class="card-author__name text-left">
+                          <span class="card-title">Волков Матвей <br /></span>
+                          <span class="card-subtitle mb-2 text-muted"
+                            >Генеральный директор Осоо Adriano Coffee</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider-item">
+                  <div class="card rev-item" style="">
+                    <div class="card-body text-left">
+                      <p class="card-text">
+                        Мы видим огромный потенциал в таких решениях, как
+                        ModulStroy, и хотим использовать их для улучшения наших
+                        строительных процессов.
+                      </p>
+                      <div class="card--bottom">
+                        <div class="card--img">
+                          <img src="./img/icons/review-1.jpg" alt="" />
+                        </div>
+                        <div class="card-author__name text-left">
+                          <span class="card-title">Волков Матвей <br /></span>
+                          <span class="card-subtitle mb-2 text-muted"
+                            >Генеральный директор Осоо Adriano Coffee</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider-item">
+                  <div class="card rev-item" style="">
+                    <div class="card-body text-left">
+                      <p class="card-text">
+                        Мы видим огромный потенциал в таких решениях, как
+                        ModulStroy, и хотим использовать их для улучшения наших
+                        строительных процессов.
+                      </p>
+                      <div class="card--bottom">
+                        <div class="card--img">
+                          <img src="./img/icons/review-1.jpg" alt="" />
+                        </div>
+                        <div class="card-author__name text-left">
+                          <span class="card-title">Волков Матвей <br /></span>
+                          <span class="card-subtitle mb-2 text-muted"
+                            >Генеральный директор Осоо Adriano Coffee</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section class="ready">
+          <div class="ready-container">
+            <div class="ready--content text-center">
+              <h1>Готовы заказать нам строительные работы для вашего сложного проекта?</h1>
+              <button type="button" data-hystmodal="#myModal"
+              class="btn btn-dark btn-lg m-right button">
+              Заказать
+            </button>
+            </div>
+          </div>
+        </section>
+    
+      </div>
+    </main>
+
+         <!-- modal window  -->
+         <div class="hystmodal " id="myModal" aria-hidden="true">
+          <div class="hystmodal__wrap row">
+              <div class="hystmodal__window" role="dialog"
+                  aria-modal="true">
+                  <button data-hystclose class="hystmodal__close">Закрыть</button>
+                  <h3 class="text-dark text-center">Оставьте контакты</h3>
+                    <div class="tex-muted text-center"> Мы с вами свяжемся</div>
+                  <form name="contactForm" id="contact_form" class="form-default" method="post"
+                      action="email.php">
+                      <div class="field-set">
+                          <input type="text" name="name" id="name" class="form-control"
+                              placeholder="Введите Имя" />
+                      </div>
+
+                      <div class="field-set">
+                          <input type="text" name="phone" id="phone" class="form-control"
+                              placeholder="Введите номер тел" />
+                      </div>
+
+                      <div class="spacer-half"></div>
+                      <div class="text-center" id="submit">
+                          <input type="submit" id="send_message" value="Отправить"
+                              class="btn btn-dark button" />
+                      </div>
+                  </form>
+              </div>
+          </div>
+         </div>
+        <!--/ modal window  -->  
+
+        <!-- get button -->
+        <!-- <div id="gb-widget-7692" style="bottom: 21px; right: 23px; opacity: 1; transition: opacity 0.5s ease 0s; 
+            box-sizing: border-box; direction: ltr; position: fixed !important; z-index: 16000160 !important;">
+          <div class="q8c6tt-2 jxPOhn"><a color="#129BF4" class="q8c6tt-0 fHBfwK">
+            <div class="v2p3h2-0 iEkjLa">
+              <svg viewBox="0 -256 1850 1850" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                style="width: 100%; height: 100%; fill: rgb(255, 255, 255); stroke: none;"><path 
+                transform="matrix(0.71186441,0,0,-0.71186441,288.54237,1093.9482)" 
+                d="M 704,1152 Q 551,1152 418,1100 285,1048 206.5,959 128,870 128,768 q 0,-82 53,-158 53,-76 149,-132 l 97,
+                -56 -35,-84 q 34,20 62,39 l 44,31 53,-10 q 78,-14 153,-14 153,0 286,52 133,52 211.5,141 78.5,89 78.5,191 0,102 -78.5,
+                191 -78.5,89 -211.5,141 -133,52 -286,52 z m 0,128 q 191,0 353.5,-68.5 Q 1220,1143 1314,1025 1408,907 1408,768 1408,629 1314,
+                511 1220,393 1057.5,324.5 895,256 704,256 618,256 528,272 404,184 250,144 214,135 164,128 h -3 q -11,0 -20.5,8 -9.5,8 -11.5,
+                21 -1,3 -1,6.5 0,3.5 0.5,6.5 0.5,3 2,6 l 2.5,5 q 0,0 3.5,5.5 3.5,5.5 4,5 0.5,-0.5 4.5,5 4,5.5 4,4.5 5,6 23,25 18,19 26,29.5 8,
+                10.5 22.5,29 Q 235,303 245.5,323 256,343 266,367 142,439 71,544 0,649 0,768 0,907 94,1025 188,1143 350.5,1211.5 513,1280 704,
+                1280 Z M 1526,111 q 10,-24 20.5,-44 10.5,-20 25,-38.5 14.5,-18.5 22.5,-29 8,-10.5 26,-29.5 18,-19 23,-25 1,-1 4,-4.5 3,-3.5 4.5,
+                -5 1.5,-1.5 4,-5 2.5,-3.5 3.5,-5.5 l 2.5,-5 q 0,0 2,-6 2,-6 0.5,-6.5 -1.5,-0.5 -1,-6.5 -3,-14 -13,-22 -10,-8 -22,-7 -50,7 -86,
+                16 Q 1388,-72 1264,16 1174,0 1088,0 817,0 616,132 q 58,-4 88,-4 161,0 309,45 148,45 264,129 125,92 192,212 67,120 67,254 0,
+                77 -23,152 129,-71 204,-178 75,-107 75,-230 0,-120 -71,-224.5 Q 1650,183 1526,111 Z"></path></svg>
+             </div></a>
+            </div><a type="link" 
+                href="http://getbutton.io/?utm_campaign=multy_widget&amp;utm_medium=widget&amp;utm_source=127.0.0.1" 
+                class="sc-7dvmpp-1 dfBDQI">GetButton</a>
+        </div> -->
+        <!--/ get button  -->
+
+    <footer class="footer">
+      <!-- <div class="line"></div> -->
+      <div class="footer--container line">
+        <div class="row">
+          <div class="footer--item col-lg-4 col-md-6">
+            <div class="ul">
+              <li>
+                <div class="logo">
+                  <div class="logo-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg" width="16"
+                      height="16" fill="currentColor"
+                      class="bi bi-bank2" viewBox="0 0 16 16">
+                      <path
+                        d="M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916l-7.5-5zM12.375 6v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1H.5z"/>
+                    </svg>
+                  </div>
+                  <a href="/">MODUL STROY</a>
+                </div>
+              </li>
+              <li>г.Алматы <br> ул. Утемисова 2/12</li>
+            </div>
+          </div>
+          <div class="footer--item col-lg-4 col-md-6">
+            <div class="ul">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                  <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/>
+                </svg>
+                <strong> Контакты</strong>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-check" viewBox="0 0 16 16">
+                  <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
+                  <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z"/>
+                </svg>
+                k.temirlans@gmail.com
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                </svg> instagram 
+              </li>
+              <li> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                   <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                        </svg>
+                     +7 (707) 474-79-17
+              </li>
+            </div>
+          </div>
+          <div class="footer--item col-lg-4 col-md-6">
+            <div class="ul">
+              <li><strong>Наши предложения</strong></li>
+              <li>Блок контейнеры</li>
+              <li>Бытовки</li>
+              <li>Киоски</li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="inner">
+          <div class="footer__bottom--left"><span>© 2022 ModulStroy, Все права защищены.</span></div>
+          <div class="footer__bottom--right">
+            Политика конфиденциальности
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bootsrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- jquery -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- slick -->
+    <script src="slick/slick.min.js"></script>
+    <script src="js/slick-slider.js"></script>
+    <!-- js -->
+    <script src="js/index.js"></script>
+    <script src="js/imageHover.js"></script>
+    <!-- modal -->
+    <script src="js/hystmodal.min.js"></script>
+    <script>
+        const myModal = new HystModal({
+            linkAttributeName: "data-hystmodal",
+            // настройки (не обязательно), см. API
+        });
+    </script>
+      <!-- GetButton.io widget -->
+    <script type="text/javascript">
+      (function () {
+         var options = {
+             whatsapp: " +7 (707) 474-79-17", // WhatsApp number
+             instagram: "module_stroy.kz", // Instagram URL
+             call_to_action: false, // Call to actionf
+             button_color: "#66b1f1", // Color of button
+             position: "right", // Position may be 'right' or 'left'
+             order: "instagram,whatsapp", // Order of buttons
+             pre_filled_message: "Сообщение с сайта", // WhatsApp pre-filled message
+         };
+         var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+         var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+         s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+          var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+      })();
+    </script>
+    <!-- /GetButton.io widget -->
+  </body>
+</html>
